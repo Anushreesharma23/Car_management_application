@@ -39,7 +39,7 @@ This project is a Car Management Application where users can create, view, edit,
 2. All Cars Page:
 
    - Displays all cars created by the logged-in user.
-   - Includes a search bar for easy filtering. Filtering can be done based on Tags as well as Keywords in D
+   - Includes a search bar for easy filtering. Filtering can be done based on Tags as well as Keywords and Descriptions.
 
 3. Add Car Page:
 
