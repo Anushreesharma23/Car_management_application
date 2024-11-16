@@ -3,6 +3,7 @@
 This project is a Car Management Application where users can create, view, edit, and delete car entries. The application allows users to manage their cars by uploading images, setting a title, adding a description, and tagging the cars with various attributes. It supports user authentication to ensure data privacy, where each user can only access and manage their own car entries.
 
 [Live Demo](https://graceful-gumption-bf7a01.netlify.app/)
+
 [Backend Link](https://car-management-application-8dkv.onrender.com)
 
 ---
