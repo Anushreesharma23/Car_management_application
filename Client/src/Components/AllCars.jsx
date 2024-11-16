@@ -4,7 +4,7 @@ import "swiper/css";
 const AllCars = ({ cars, setCars }) => {
   const getCars = async () => {
     try {
-      let result = await fetch("http://localhost:80/api/product/all-products", {
+      let result = await fetch("https://car-management-application-8dkv.onrender.com/api/product/all-products", {
         method: "GET",
         headers: {
           "Content-Type": "application/json", // Specify JSON format

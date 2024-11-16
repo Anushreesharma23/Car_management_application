@@ -40,7 +40,7 @@ const Register = () => {
     }
 
     if (email && password && username) {
-      let result = await fetch("http://localhost:80/api/user/register-user", {
+      let result = await fetch("https://car-management-application-8dkv.onrender.com/api/user/register-user", {
         method: "POST",
         headers: {
           "Content-Type": "application/json", // Specify JSON format

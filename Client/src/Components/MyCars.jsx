@@ -14,7 +14,7 @@ const MyCars = ({ token, myCars, setMyCars }) => {
   const removeCar = async (carId) => {
     try {
       let result = await fetch(
-        `http://localhost:80/api/product/delete-product/${carId}`,
+        `https://car-management-application-8dkv.onrender.com/api/product/delete-product/${carId}`,
         {
           method: "DELETE",
           headers: {
@@ -63,7 +63,7 @@ const MyCars = ({ token, myCars, setMyCars }) => {
       });
 
       let result = await fetch(
-        `http://localhost:80/api/product/update-product/${carId}`,
+        `https://car-management-application-8dkv.onrender.com/api/product/update-product/${carId}`,
         {
           method: "PUT",
           headers: {
@@ -90,7 +90,7 @@ const MyCars = ({ token, myCars, setMyCars }) => {
   const getMyCars = async () => {
     setLoading(true)
     try {
-      let result = await fetch("http://localhost:80/api/product/my-products", {
+      let result = await fetch("https://car-management-application-8dkv.onrender.com/api/product/my-products", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",

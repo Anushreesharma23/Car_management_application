@@ -24,7 +24,7 @@ const AddCars = ({ token, setMyCars }) => {
         images,
       };
       let result = await fetch(
-        "http://localhost:80/api/product/create-product",
+        "https://car-management-application-8dkv.onrender.com/api/product/create-product",
         {
           method: "POST",
           headers: {
